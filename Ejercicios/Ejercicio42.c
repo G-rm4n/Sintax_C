@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    int a;
+    do{
+        printf("ingrese un numero y le mostrare su cuadrado: ");
+        scanf("%d",&a);
+        printf("cuadrado de %d : %f \n",a,(a*a));
+    } while(a!=0);
+    return 0;
+}
